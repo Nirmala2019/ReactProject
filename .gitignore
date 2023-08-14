@@ -1,0 +1,4 @@
+/i dont want to put node_module folder on gitHub
+/node_module
+/dist
+/not need to this folders push on git git coz this will be regenarating folders 

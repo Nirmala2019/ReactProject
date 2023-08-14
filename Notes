@@ -1,0 +1,88 @@
+/** STEPS TO PUSH CODE ON GITHUB*/
+
+-git init  
+-git add .
+-git commit -m "react funcationality adding"
+then connect your local to gitHub by copy pasting your gitHub repo url
+- git remote add origin https://github.com/Nirmala2019/ReactProject.git
+-git push origin main
+will get like below msg as 100% done
+-----Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 1.14 KiB | 90.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Nirmala2019/ReactProject.git
+ * [new branch]      main -> main
+PS C:\Users\ECGC-HP33\Desktop\namaste-react>
+
+After that refersh your gitHub repo and check pushed code is there.....Yupppp....!
+
+
+NPM - it Manages pakages behind the seen (but it doses not stands for - Node Package Manager)
+- it is a standard repository for all the pakages.
+-you can include pakages in your project from npm.
+-All the libararies, utilities comes from npm.
+
+To add npm in your project
+-npm init
+not a coz it will skip some files- npm init -y 
+---------------------------------
+STEPS TO ADD NPM IN YOUR PROJECT
+
+PS C:\Users\ECGC-HP33\Desktop\namaste-react> npm init       
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and 
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (namaste-react)
+version: (1.0.0)
+description: This is Namste React by Akshay Saini
+entry point: (App.js)
+test command: jest
+git repository: https://github.com/Nirmala2019/ReactProject.git
+keywords: react, nirmala
+author: NIRMALA DEVMANE
+license: (ISC)
+About to write to C:\Users\ECGC-HP33\Desktop\namaste-react\package.json:
+
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namste React by Akshay Saini",    
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirmala2019/ReactProject.git"
+  },
+  "keywords": [
+    "react",
+    "nirmala"
+  ],
+  "author": "NIRMALA DEVMANE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nirmala2019/ReactProject/issues"
+  },
+  "homepage": "https://github.com/Nirmala2019/ReactProject#readme"
+}
+
+
+Is this OK? (yes)
+PS C:\Users\ECGC-HP33\Desktop\namaste-react>
+
+-----------------------------------------------------------
+
+To install npm libraries cmd
+-npm install -D parcel
+parcel is on of librarie
